@@ -19,7 +19,8 @@
         body {
             height: 100%;
             font-family: "Gill Sans", sans-serif;
-            background-color: darkslategray;
+            background-color: #212529;
+            /* background-color: darkslategray; */
             background-image: url("paper.gif");
         }
         .tab-menu {
@@ -34,6 +35,12 @@
         .margin-top-40 {
             margin-top: 40px;
         }
+        .color-darkslategray {
+            background-color: #212529;
+        }
+        .btn-menu-style {
+            border-style: hidden;
+        }
     </style>
 </head>
 <body class="bg-dark text-light">
@@ -47,16 +54,24 @@
                 <div class="col-lg-8">
                     <div class="row">
                         <div class="col-lg-3 text-center">
-                            <h5>HOME</h5>
+                            <form action="index.html">
+                                <button type="submit" class="button color-darkslategray btn-menu-style"><h5>HOME</h5></button>
+                            </form>
                         </div>
                         <div class="col-lg-3 text-center">
-                            <h5>INFO</h5>
+                            <form action="info.html">
+                                <button type="submit" class="button color-darkslategray btn-menu-style"><h5>INFO</h5></button>
+                            </form>
                         </div>
                         <div class="col-lg-3 text-center">
-                            <h5>REVIEW</h5>
+                            <form action="review.html">
+                                <button type="submit" class="button color-darkslategray btn-menu-style"><h5>REVIEW</h5></button>
+                            </form>
                         </div>
                         <div class="col-lg-3 text-center">
-                            <h5>CONTACT</h5>
+                            <form action="contact.html">
+                                <button type="submit" class="button color-darkslategray btn-menu-style"><h5>CONTACT</h5></button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -80,23 +95,23 @@
         </div>
     </div>
     <div class="container h-100 mb-3 p-3 d-flex flex-column">
-        <div class="row" style="margin-top: 100px;">
+        <div class="row text-center" style="margin-top: 100px;">
             <h1>Welcome to Angoon Khunkhao Campsite</h1>
             <h1>Contact us at angoon.campsite@gmail.com</h1>
             <h1>Other information is comming soon . . .</h1>
         </div>
-        <div class="row" style="margin-top: 100px;">
+        <!-- <div class="row text-center" style="margin-top: 100px;">
             <h1>ยินดีต้อนรับสู่แอ่งอุ่นขุนเขา จุดกางเต็นท์</h1>
             <h1>ติดต่อสอบถามข้อมูลเพิ่มเติมได้ที่ angoon.campsite@gmail.com</h1>
             <h1>ข้อมูลอื่นๆจะอัพเดตตามมาเร็วๆนี้ค่ะ . . .</h1>
-        </div>
+        </div> -->
     </div>
     
 <footer>
     
   </footer>
   
-<script src="./myscript.js"></script>
+<script src=""></script>
 </body>
 
 </html>

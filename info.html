@@ -19,31 +19,92 @@
         body {
             height: 100%;
             font-family: "Gill Sans", sans-serif;
-            background-color: darkslategray;
+            background-color: #212529;
+            /* background-color: darkslategray; */
             background-image: url("paper.gif");
+        }
+        .tab-menu {
+            margin-right: 10%;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .text-right {
+            text-align: right;
+        }
+        .margin-top-40 {
+            margin-top: 40px;
+        }
+        .color-darkslategray {
+            background-color: #212529;
+        }
+        .btn-menu-style {
+            border-style: hidden;
         }
     </style>
 </head>
 <body class="bg-dark text-light">
-    <div class="container h-100 mb-3 p-3 d-flex flex-column">
-        <div class="row" style="margin-top: 100px;">
-            <h1>Welcome to Angoon Khunkhao Campsite</h1>
-            <h1>Contact us at angoon.campsite@gmail.com</h1>
-            <h1>Other information is comming soon . . .</h1>
+    <div class="row margin-top-40">
+        <div class="col-lg-3 text-center">
+            <h5>angoon</h5> 
         </div>
-        <div class="row" style="margin-top: 100px;">
-            <h1>ยินดีต้อนรับสู่แอ่งอุ่นขุนเขา จุดกางเต็นท์</h1>
-            <h1>ติดต่อสอบถามข้อมูลเพิ่มเติมได้ที่ angoon.campsite@gmail.com</h1>
-            <h1>ข้อมูลอื่นๆจะอัพเดตตามมาเร็วๆนี้ค่ะ . . .</h1>
+        <div class="col-lg-6">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-3 text-center">
+                            <form action="index.html">
+                                <button type="submit" class="button color-darkslategray btn-menu-style"><h5>HOME</h5></button>
+                            </form>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <form action="info.html">
+                                <button type="submit" class="button color-darkslategray btn-menu-style"><h5>INFO</h5></button>
+                            </form>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <form action="review.html">
+                                <button type="submit" class="button color-darkslategray btn-menu-style"><h5>REVIEW</h5></button>
+                            </form>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <form action="contact.html">
+                                <button type="submit" class="button color-darkslategray btn-menu-style"><h5>CONTACT</h5></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-3"><img src="https://cdn-icons-png.flaticon.com/512/0/191.png" width="40px" height="40px"></div>
+                        <div class="col-lg-3"><img src="https://i.pinimg.com/originals/e3/12/ec/e312ecf638dc1d36fe6d5dd43b7c2363.png" width="40px" height="40px"></div>
+                        <div class="col-lg-3"><img src="https://www.iconpacks.net/icons/2/free-facebook-icon-2869-thumb.png" width="40px" height="40px"></div>
+                        <div class="col-lg-3"><img src="https://www.iconpacks.net/icons/2/free-send-mail-icon-2574-thumb.png" width="50px" height="50px"></div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container h-100 mb-3 p-3 d-flex flex-column">
+        <div class="row text-center" style="margin-top: 100px;">
+            <h1>Info . . .</h1>
         </div>
     </div>
     
 <footer>
-    <p>Author: Hege Refsnes<br>
-    <a href="mailto:hege@example.com">hege@example.com</a></p>
+    
   </footer>
   
-<script src="./myscript.js"></script>
+<script src=""></script>
 </body>
 
 </html>
